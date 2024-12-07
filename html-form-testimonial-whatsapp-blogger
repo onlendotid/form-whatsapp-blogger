@@ -1,0 +1,14 @@
+<form id="testimonialForm">
+    <label>Nama:</label>
+    <input id="testimonialName" name="name" required="" type="text" /><br /><br />
+
+    <label>Alamat Situs:</label>
+    <input id="testimonialWebsite" name="website" placeholder="https://contoh.com" required="" type="url" /><br /><br />
+
+    <label>Testimoni:</label><br />
+    <textarea id="testimonialMessage" name="message" required=""></textarea><br /><br />
+
+    <button id="submitButton" type="button">
+        <i class="ic--baseline-whatsapp"></i> Kirim ke WhatsApp
+    </button>
+</form>
