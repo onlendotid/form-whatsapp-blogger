@@ -1,0 +1,23 @@
+<form class="orderForm" id="orderForm">
+  <label>Nama Pemesan:</label>
+  <input id="orderName" name="name" required="" type="text" /><br /><br />
+
+  <label>Jenis Pemesanan:</label>
+  <select id="orderPurpose" name="purpose" required="">
+    <option value="">-- Pilih Jenis Pemesanan --</option>
+    <option value="Pemesanan Produk">Pemesanan Produk</option>
+    <option value="Pemesanan Produk">Pemesanan Produk</option>
+    <option value="Pemesanan Produk">Pemesanan Produk</option>
+  </select><br /><br />
+
+  <!--Kolom Voucher Diskon dipindah ke atas-->
+  <label>Voucher Diskon (Opsional):</label>
+  <input id="orderVoucher" name="voucher" type="text" /><br /><br />
+
+  <label>Detail Pemesanan:</label><br />
+  <textarea id="orderMessage" name="message" required=""></textarea><br /><br />
+
+  <button id="submitOrderButton" onclick="sendOrderToWhatsApp()" type="button">
+    <i class="ic--baseline-whatsapp"></i> Kirim Pemesanan ke WhatsApp
+  </button>
+</form>
