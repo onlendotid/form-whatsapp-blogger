@@ -1,0 +1,17 @@
+<form class="formCS" id="contactFormCS">
+  <label>Nama:</label>
+  <input id="nameCS" name="name" required="" type="text" /><br /><br />
+  <label>Tujuan:</label>
+  <select id="purposeCS" name="purpose" required="">
+    <option value="">-- Pilih Tujuan --</option>
+    <option value="Konsultasi Gratis">Konsultasi Gratis</option>
+    <option value="Pertanyaan Produk">Pertanyaan Produk</option>
+    <option value="Layanan Pelanggan">Layanan Pelanggan</option>
+    <option value="Lainnya">Lainnya</option></select
+  ><br /><br />
+  <label>Pesan:</label><br />
+  <textarea id="messageCS" name="message" required=""></textarea><br /><br />
+  <button id="submitButtonCS" onclick="sendToWhatsAppCS()" type="button">
+    <i class="ic--baseline-whatsapp"></i> Kirim ke WhatsApp
+  </button>
+</form>
